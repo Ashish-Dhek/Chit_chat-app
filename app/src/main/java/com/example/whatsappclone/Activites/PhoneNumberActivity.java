@@ -23,6 +23,7 @@ public class PhoneNumberActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phone_number);
         getSupportActionBar().hide();
+
         continueButton= findViewById(R.id.continueButton);
         phoneNumber= findViewById(R.id.phoneNumberText);
 
